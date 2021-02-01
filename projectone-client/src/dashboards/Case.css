@@ -1,0 +1,38 @@
+.case-item {
+	display: grid;
+	grid-template-columns: repeat(6, calc(95vw / 6));
+	background-color: rgb(225, 34, 0);
+}
+
+.case-wrapper {
+	background-color: #0a0a0a;
+}
+
+.no-case {
+	background-color: rgb(225, 34, 0);
+	margin: 0;
+	padding: 50px;
+}
+
+.dash-title {
+	margin: 0;
+	padding: 10px;
+}
+
+.dashboard {
+	height: 100%;
+	width: 100%;
+}
+
+.case-info {
+	border: 1px solid navajowhite;
+}
+
+h4 {
+	background-color: rgb(225, 34, 0);
+	border: 1px solid black;
+	color: #0a0a0a;
+	margin: 0;
+	padding: 20px;
+	text-shadow: none;
+}

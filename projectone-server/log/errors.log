@@ -1,0 +1,1661 @@
+[2021-01-14T23:27:43.376] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :award
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :award',
+  code: 'ValidationException',
+  time: 2021-01-15T04:27:43.372Z,
+  requestId: 'E4ENQD3LOLGT9IRHR6EEGJ5K57VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 29.831669959277352
+}
+[2021-01-15T19:28:19.798] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.797Z,
+  requestId: 'P5LV1IJFF9PIELFVMMLQB07RQRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 48.24968302718611
+}
+[2021-01-15T19:28:19.810] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.809Z,
+  requestId: '09Q0OMA987FP5G4GVSK4KUFCCJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 31.0241153193771
+}
+[2021-01-15T19:28:19.814] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.813Z,
+  requestId: 'R9MBFVQBOUIGK5U6J8IO6G88IFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 46.201315646155
+}
+[2021-01-15T19:28:19.816] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.816Z,
+  requestId: 'LJ1M1DRKMKEFLIEPOHP85THIENVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 3.6132894655720227
+}
+[2021-01-15T19:28:19.819] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.818Z,
+  requestId: 'V8135V1TS5RI5DHL39EHI51KE7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 27.586313783961515
+}
+[2021-01-15T19:28:19.821] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.821Z,
+  requestId: 'VA74JUMMHDIM5RCA8NLBD0I2TNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.914092169166445
+}
+[2021-01-15T19:28:19.823] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.823Z,
+  requestId: '7FCPOAB8QP55QBFB2O3CCQLTRVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 37.74140007893186
+}
+[2021-01-15T19:28:19.826] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-16T00:28:19.825Z,
+  requestId: 'NI3COMU9U1QSJ598GBBG4FMVJVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.644111222107668
+}
+[2021-01-16T18:07:14.209] [ERROR] default - null
+[2021-01-16T18:07:15.591] [ERROR] default - null
+[2021-01-16T18:47:54.714] [ERROR] default - null
+[2021-01-16T18:52:42.061] [ERROR] default - null
+[2021-01-16T18:58:59.379] [ERROR] default - null
+[2021-01-16T19:15:07.755] [ERROR] default - null
+[2021-01-16T19:17:17.915] [ERROR] default - null
+[2021-01-16T19:19:57.754] [ERROR] default - null
+[2021-01-16T19:20:35.600] [ERROR] default - null
+[2021-01-16T19:25:29.627] [ERROR] default - null
+[2021-01-17T00:01:40.711] [ERROR] default - ValidationException: One or more parameter values are not valid. A value specified for a secondary index key is not supported. The AttributeValue for a key attribute cannot contain an empty string value. IndexName: UsersByTitle, IndexKey: title
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'One or more parameter values are not valid. A value specified for a secondary index key is not supported. The AttributeValue for a key attribute cannot contain an empty string value. IndexName: UsersByTitle, IndexKey: title',
+  code: 'ValidationException',
+  time: 2021-01-17T05:01:40.710Z,
+  requestId: '0EV95AC9ECGIBSE470KVGDAHS3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 48.17647052888935
+}
+[2021-01-17T01:03:24.393] [ERROR] default - null
+[2021-01-19T02:42:23.675] [ERROR] default - null
+[2021-01-19T02:49:10.166] [ERROR] default - null
+[2021-01-20T10:26:20.118] [ERROR] default - null
+[2021-01-20T10:41:03.162] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:41:03.161Z,
+  requestId: 'V6AC4GPRLA378PQCI4V59R3PAVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 4.473876016589484
+}
+[2021-01-20T10:41:03.171] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:41:03.170Z,
+  requestId: '7QBB5VL3HUADUS6IU9TT9M98RNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 41.1734298907381
+}
+[2021-01-20T10:47:48.260] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:47:48.259Z,
+  requestId: '773LC8I2N29HN5T2MRMIK68OIVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 5.911742766139372
+}
+[2021-01-20T10:47:48.264] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:47:48.263Z,
+  requestId: 'VCN21PE0197OHGD3V4A5N6S4GJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 20.91039809217754
+}
+[2021-01-20T10:49:21.134] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:49:21.133Z,
+  requestId: '48QSIKH9PLRLQS1DVN3AMG08VNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 31.812754884041638
+}
+[2021-01-20T10:50:33.077] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:50:33.077Z,
+  requestId: 'MO3FCQCVG7ND55AJ4BP028F6H3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.115630200888425
+}
+[2021-01-20T10:51:06.348] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T15:51:06.348Z,
+  requestId: 'MFDUUIKP01D2M6SK1KS3UKIUPRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 40.29909866769654
+}
+[2021-01-20T11:08:50.197] [ERROR] default - null
+[2021-01-20T11:13:08.895] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:13:08.894Z,
+  requestId: '2O1NG2VK569TO2B5NQFICPAGCFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.328597433025518
+}
+[2021-01-20T11:23:46.859] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:23:46.858Z,
+  requestId: '7I47671DNDIR5EC9FUMEDD4PGFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 30.76198340387769
+}
+[2021-01-20T11:29:56.647] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.645Z,
+  requestId: 'ILJH7IDJ33C3DVA3URSD589JKNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.6857407974921
+}
+[2021-01-20T11:29:56.660] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.660Z,
+  requestId: '1VLM9TQ3TS3CQ2HR8B9S1LU2S7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.131779955468886
+}
+[2021-01-20T11:29:56.663] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.663Z,
+  requestId: 'DFTI25LSQ8Q0JOSE3869BUT3PNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.850885641645554
+}
+[2021-01-20T11:29:56.666] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.665Z,
+  requestId: 'JL953RU7DVUHG86TJ5K1TDFD3FVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.13438017701864
+}
+[2021-01-20T11:29:56.668] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.667Z,
+  requestId: 'O9FH0O7P8L43O6SQSIRS104FABVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.82250799071567
+}
+[2021-01-20T11:29:56.670] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.670Z,
+  requestId: 'T6HULO66E7CVLNCJT68K13J1E3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.03439707025512
+}
+[2021-01-20T11:29:56.672] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.672Z,
+  requestId: '2FQQJOGMJLJIMVMOH56U8JEP1RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 30.750625880629133
+}
+[2021-01-20T11:29:56.675] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:29:56.675Z,
+  requestId: 'BV18JTRTNPBOR6SP3DQ60F8A4NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.180270628692334
+}
+[2021-01-20T11:35:24.784] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.782Z,
+  requestId: 'DQLRPJCI9KD8HEQ6K3F0E0STG3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.991001104463244
+}
+[2021-01-20T11:35:24.798] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.797Z,
+  requestId: 'VSI7GN72RCS5GOM0D2KRBMKVFFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 31.27174680993142
+}
+[2021-01-20T11:35:24.802] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.801Z,
+  requestId: '6HLB9VA4L15IKL8SERKIIDVV2BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 17.42086556178978
+}
+[2021-01-20T11:35:24.805] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.804Z,
+  requestId: 'ARSTPCPRLR0I1CA8C79S6GDEBVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 48.29585585787508
+}
+[2021-01-20T11:35:24.807] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.807Z,
+  requestId: 'AVNSI3NCHLFVBJF2MEO2J95QI7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 33.978563630039595
+}
+[2021-01-20T11:35:24.811] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.810Z,
+  requestId: 'LV2ED9SJM5M163N097TC109EHFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.477197497606696
+}
+[2021-01-20T11:35:24.814] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.813Z,
+  requestId: '7J8N08PF0V37V8NS1CG3R5HVINVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 20.603935343569102
+}
+[2021-01-20T11:35:24.817] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:35:24.816Z,
+  requestId: '81VNABDJ300J0SB9ATH1AI60Q7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 8.127786052204279
+}
+[2021-01-20T11:38:27.002] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:26.999Z,
+  requestId: 'SI04L6C05ID25VMS87U0BGEF6RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 44.61232180649159
+}
+[2021-01-20T11:38:27.018] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.017Z,
+  requestId: 'OLB2PI78FJ0PMIPVES1361AK6BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.362456391924315
+}
+[2021-01-20T11:38:27.020] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.020Z,
+  requestId: '5FKP40M866S1BVURF2CEDQ3R1VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 13.887293020697388
+}
+[2021-01-20T11:38:27.023] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.023Z,
+  requestId: 'AUGK8PU9JAOTMDFRNP404A21A7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 32.42017859867619
+}
+[2021-01-20T11:38:27.025] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.025Z,
+  requestId: '7ESO5IK8Q152SCEMV5I2Q2DBDBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 19.106265977198277
+}
+[2021-01-20T11:38:27.027] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.027Z,
+  requestId: 'CE2TEMOFJB7DFQO3KO0F9UHIHRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.211762842016327
+}
+[2021-01-20T11:38:27.029] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.029Z,
+  requestId: 'TIQD4HB8JNPQOF71MJHNRBVTNVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 12.886395209202473
+}
+[2021-01-20T11:38:27.076] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:38:27.076Z,
+  requestId: 'JH65TANV52309RG68GH69ARGPBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 19.911273568745138
+}
+[2021-01-20T11:42:03.505] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.503Z,
+  requestId: '023QURLGAEDHA0ICE1KNS6C4KFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 14.611862836184175
+}
+[2021-01-20T11:42:03.519] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.518Z,
+  requestId: '683HDQLGRUEB4QEJ168GNT1AAFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.01645099767479
+}
+[2021-01-20T11:42:03.523] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.522Z,
+  requestId: 'OKVGNTBL0D3JRDLE0QJ68LOIMJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 33.17519504778513
+}
+[2021-01-20T11:42:03.525] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.525Z,
+  requestId: 'E3JL6UJPPHOAQ96R3OKMVOO5BJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.597782921052953
+}
+[2021-01-20T11:42:03.528] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.527Z,
+  requestId: 'DNV3ATJKOAC9CKEOA0S4ILINBNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.682829050592964
+}
+[2021-01-20T11:42:03.530] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.530Z,
+  requestId: 'NIBJ35P7U0PQ6B631KE5KJQV7BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 14.259441451819521
+}
+[2021-01-20T11:42:03.532] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.532Z,
+  requestId: 'BTPKQ5NGCH26TVGLQJTD9N77LBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.12273096262129
+}
+[2021-01-20T11:42:03.535] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:42:03.534Z,
+  requestId: 'J964A909H5DG2J7CS0BP3QBSNJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.39791638129025
+}
+[2021-01-20T11:47:07.135] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.133Z,
+  requestId: 'KN598LBRQD2R4J2DEVE4VQ7M6BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 33.894018034627614
+}
+[2021-01-20T11:47:07.151] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.151Z,
+  requestId: 'DIGJ1S70LRQERAS1DVQRA31S3RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.193557122810837
+}
+[2021-01-20T11:47:07.155] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.154Z,
+  requestId: '90P62L6M9JRA9PFPTVK67CRQJJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 8.109194036285794
+}
+[2021-01-20T11:47:07.158] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.158Z,
+  requestId: 'IFABRMDRAUKBVHKBIIC8DA90GBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 37.58811098899149
+}
+[2021-01-20T11:47:07.161] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.161Z,
+  requestId: 'RC0B167FUPB1UV8M07VO0G9EOFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.694067906935933
+}
+[2021-01-20T11:47:07.164] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.164Z,
+  requestId: 'TT7UR1O72N7FOE0EK3SQEBKFINVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.844954665937056
+}
+[2021-01-20T11:47:07.167] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.167Z,
+  requestId: '1G3I5O98ST9CF9EC65OHEBUP5RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 9.526684788586747
+}
+[2021-01-20T11:47:07.170] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:47:07.170Z,
+  requestId: 'I8LP803530C9KD9OQ58CPUJP03VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.31965798292418
+}
+[2021-01-20T11:51:35.062] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.061Z,
+  requestId: '82TV1C4E6UO3KJ471IP69OOVU3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.450138317544184
+}
+[2021-01-20T11:51:35.066] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.066Z,
+  requestId: 'VBO45C6HNA49PG07AF71L3ITRBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.29311218185219
+}
+[2021-01-20T11:51:35.069] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.069Z,
+  requestId: '6SJRC4O84O0TGG91Q3LF30A1MVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 34.12031302591932
+}
+[2021-01-20T11:51:35.072] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.072Z,
+  requestId: 'KJJSL0KLVLAE2V4MSM3DC06DDFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.15334967315047
+}
+[2021-01-20T11:51:35.075] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.075Z,
+  requestId: 'RMNVN9J757IA3M8L1D05K8PRDRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 7.58756548422318
+}
+[2021-01-20T11:51:35.083] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.082Z,
+  requestId: '5H3EFGD6L9LSMEUS9B7Q8607F3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 30.423477045669898
+}
+[2021-01-20T11:51:35.093] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.093Z,
+  requestId: 'I90D60V4T3BTRKVCSEL8VRDFP3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 44.40822224745647
+}
+[2021-01-20T11:51:35.096] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Requested resource not found',
+  code: 'ResourceNotFoundException',
+  time: 2021-01-20T16:51:35.096Z,
+  requestId: '5061MA72L2MFI8CAVGQSB9V3TNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.438882542442204
+}
+[2021-01-20T12:29:11.193] [ERROR] default - null
+[2021-01-20T12:53:09.067] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-20T17:53:09.064Z,
+  requestId: 'MH4VGOQKPQ7GMRAAC33MJNVAJFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.065429927758583
+}
+[2021-01-20T13:05:11.037] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-20T18:05:11.036Z,
+  requestId: 'NMQ5AHIBMLPD06TMLKB04CDKFRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.49225280679178
+}
+[2021-01-20T13:23:15.106] [ERROR] default - null
+[2021-01-20T13:46:30.198] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-20T18:46:30.198Z,
+  requestId: 'EM7P4JBR9QFRDNFDQ80O5I581BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 17.26298184524111
+}
+[2021-01-20T13:56:10.471] [ERROR] default - null
+[2021-01-20T13:58:35.855] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-20T18:58:35.855Z,
+  requestId: '65L3674IIG30UR3BIU79PQDFSVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 17.099338694947754
+}
+[2021-01-20T13:59:33.524] [ERROR] default - null
+[2021-01-20T14:00:21.408] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :rtd
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :rtd',
+  code: 'ValidationException',
+  time: 2021-01-20T19:00:21.408Z,
+  requestId: 'J87DEFTQH7A1F2FN47V9M703FBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.288025328384942
+}
+[2021-01-20T14:03:55.035] [ERROR] default - null
+[2021-01-20T14:05:45.597] [ERROR] default - ValidationException: Invalid ConditionExpression: Syntax error; token: ",", near: ":u, created"
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid ConditionExpression: Syntax error; token: ",", near: ":u, created"',
+  code: 'ValidationException',
+  time: 2021-01-20T19:05:45.596Z,
+  requestId: 'CR3S3LFPKBBTQLE91LICT5K0VNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 19.360953569430016
+}
+[2021-01-20T14:18:48.822] [ERROR] default - ValidationException: Invalid ConditionExpression: Syntax error; token: "created", near: ":u created ="
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid ConditionExpression: Syntax error; token: "created", near: ":u created ="',
+  code: 'ValidationException',
+  time: 2021-01-20T19:18:48.820Z,
+  requestId: '6C5Q8P2Q10GDJ8FHJ765EPSM6VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 35.93543876479238
+}
+[2021-01-20T14:44:56.446] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-20T19:44:56.442Z,
+  requestId: '06L1HG21QGND49EOESNI93K3JRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 29.963452660502966
+}
+[2021-01-20T15:48:16.267] [ERROR] default - null
+[2021-01-20T16:32:59.123] [ERROR] default - null
+[2021-01-20T17:29:39.124] [ERROR] default - null
+[2021-01-20T17:30:04.725] [ERROR] default - null
+[2021-01-20T17:31:27.681] [ERROR] default - null
+[2021-01-20T17:33:31.393] [ERROR] default - null
+[2021-01-23T17:07:25.192] [ERROR] default - null
+[2021-01-23T17:17:24.177] [ERROR] default - null
+[2021-01-23T17:28:49.777] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'The provided key element does not match the schema',
+  code: 'ValidationException',
+  time: 2021-01-23T22:28:49.774Z,
+  requestId: 'BSS6C3ENDQ0N05B3IDFUQQGAOJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 17.830857513275276
+}
+[2021-01-23T17:30:16.143] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'The provided key element does not match the schema',
+  code: 'ValidationException',
+  time: 2021-01-23T22:30:16.143Z,
+  requestId: 'SSA42L08KK3JOR0DPH7C3HBG97VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 8.873641995587677
+}
+[2021-01-23T18:43:14.731] [ERROR] default - null
+[2021-01-23T18:43:55.123] [ERROR] default - ValidationException: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status',
+  code: 'ValidationException',
+  time: 2021-01-23T23:43:55.121Z,
+  requestId: 'U9TUSIC589ALBAES3UMCMDMHQFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 0.19287646106753709
+}
+[2021-01-23T19:06:41.359] [ERROR] default - null
+[2021-01-23T19:08:14.774] [ERROR] default - null
+[2021-01-23T19:08:38.653] [ERROR] default - null
+[2021-01-23T19:32:14.403] [ERROR] default - null
+[2021-01-23T19:32:47.012] [ERROR] default - null
+[2021-01-23T19:36:47.660] [ERROR] default - null
+[2021-01-23T21:50:24.529] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-24T02:50:24.483Z,
+  requestId: 'N4IK1M8P8BMSNDAL1SKDSSJ5DBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.66667034986399
+}
+[2021-01-23T21:50:24.614] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh',
+  code: 'ValidationException',
+  time: 2021-01-24T02:50:24.613Z,
+  requestId: 'VV8N23LSPCAR8PSVB70B3JCB7JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 35.207088531664056
+}
+[2021-01-23T21:54:05.007] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-24T02:54:05.006Z,
+  requestId: '8AUL5BO5II4BCIP3JQUPTU1HUFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.46888150678518
+}
+[2021-01-23T21:54:05.047] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh',
+  code: 'ValidationException',
+  time: 2021-01-24T02:54:05.047Z,
+  requestId: 'MS595DBK2NSE9G97MBJLMM1AGRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.21429325457648
+}
+[2021-01-23T21:54:20.090] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :req',
+  code: 'ValidationException',
+  time: 2021-01-24T02:54:20.089Z,
+  requestId: 'DD11NVFTKDQ2K6060B0RNJP1UJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 32.20615593257777
+}
+[2021-01-23T21:54:20.094] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh
+    at Request.extractError (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jtate_000\revature\2012-dec14-react\projectone-server\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  message: 'Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :dh',
+  code: 'ValidationException',
+  time: 2021-01-24T02:54:20.094Z,
+  requestId: '60RIV5P07EN3CVBH654TQ7PMNNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 1.9808163221839536
+}
+[2021-01-23T22:35:35.073] [ERROR] default - null
+[2021-01-24T01:43:18.657] [ERROR] default - null
+[2021-01-24T01:46:01.324] [ERROR] default - null
+[2021-01-24T01:47:47.480] [ERROR] default - null
+[2021-01-24T01:48:37.630] [ERROR] default - null
+[2021-01-24T02:03:02.774] [ERROR] default - null
+[2021-01-24T02:03:24.704] [ERROR] default - null
+[2021-01-24T02:20:47.707] [ERROR] default - null
+[2021-01-24T16:05:04.498] [ERROR] default - null
+[2021-01-24T17:16:14.958] [ERROR] default - null
+[2021-01-24T18:31:48.845] [ERROR] default - null
+[2021-01-24T18:43:38.064] [ERROR] default - null
+[2021-01-24T19:04:02.308] [ERROR] default - null
+[2021-01-24T19:48:11.588] [ERROR] default - null
+[2021-01-24T19:58:08.606] [ERROR] default - null
+[2021-01-24T19:58:35.618] [ERROR] default - null
+[2021-01-24T19:58:57.796] [ERROR] default - null
+[2021-01-24T20:07:17.721] [ERROR] default - null
+[2021-01-24T20:53:52.211] [ERROR] default - null
+[2021-01-24T21:03:49.200] [ERROR] default - null
+[2021-01-24T21:30:35.471] [ERROR] default - null
+[2021-01-24T21:32:01.670] [ERROR] default - null
+[2021-01-24T21:45:49.640] [ERROR] default - null
+[2021-01-24T23:07:48.781] [ERROR] default - null
+[2021-01-24T23:10:10.878] [ERROR] default - null
+[2021-01-24T23:12:14.794] [ERROR] default - null
+[2021-01-24T23:13:42.959] [ERROR] default - null
+[2021-01-24T23:19:05.736] [ERROR] default - null
+[2021-01-24T23:21:48.830] [ERROR] default - null
+[2021-01-25T16:52:27.817] [ERROR] default - null

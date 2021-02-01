@@ -1,0 +1,33 @@
+{
+	"username": "",
+	"fname": "",
+	"lname": "",
+	"title": "",
+	"dept": "",
+	"created": "",
+	"status": "",
+	"event_date": "",
+	"event_time": "",
+	"event_location": "",
+	"event_description": "",
+	"event_cost": 0,
+	"event_type": "",
+	"projected_amount": 0,
+	"justification": "",
+	"missed_work": "",
+	"grade_format": {
+		"type": "Passing Grade",
+		"grade_cutoff": "70%",
+		"grade": ""
+	},
+	"isUrgent": false,
+	"isExceeding": false,
+	"approved_amount": 0,
+	"super_approval": "example approval",
+	"head_approval": "example approval",
+	"benco_approval": "example approval",
+	"additional_info": [],
+	"reasonToExceed": "",
+	"reasonToDeny": "",
+	"info_request": []
+}
