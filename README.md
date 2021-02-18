@@ -2,13 +2,17 @@
 
 ## Project Description
 
-Here goes your awesome project description!
+Tuition Reimbursement Management System is a full-stack web application that allows employees to submit requests for reimbursements for courses, events, and certifications. These requests can then be approved or rejected by the employee's direct supervisor, department head, and a benefits coordinator while the employee is able to track the status of their requests.
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* React
+* Typescript 
+* Express
+* Redux
+* HTML
+* CSS
+* DynamoDB
 
 ## Features
 
