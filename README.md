@@ -17,33 +17,30 @@ Tuition Reimbursement Management System is a full-stack web application that all
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* As a user, I can create, view, edit, and delete reimbursement cases.
+* As the system, it can update cases to urgent or reject them if they are past the cut off date.
+* As management, I can grade and approve reimbursement cases.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Improve UI, i.e. providing a view all cases regardless of status
+* Provided more user friendly error messages
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+1. `git clone`
+2. Add environment variables. 
+  - For client: REACT_APP_SERVER_URI = <URI server is running on>
+  - For server: CLIENT = <URI client is running on>
+                PORT = <Port you want the server to run on>
+3. `npm install --save`
+4. Configure AWS with access key and secret key
+5. While in server folder `npm run setup`
+  - If not in region `us-west-2` change region in `createTable.ts`
+6. While in server folder `npm start`
+7. While in client folder `npm start`
+8. Enjoy
 
 ## Usage
 
 > Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
 
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
