@@ -70,3 +70,5 @@ To additional information from a user about the case click `Add Info`:
 
 Once the case has been approved by the supervisor and department head the BenCo can approve or deny the case:
 ![Case Review](/Screenshots/in-review.png 'Case Review')
+
+After a grade has been submitted the reimbursement amount can be awarded.
