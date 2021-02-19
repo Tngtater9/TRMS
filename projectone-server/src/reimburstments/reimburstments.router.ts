@@ -1,8 +1,8 @@
 import express from 'express';
 import logger from '../log';
-import reimbursementService from './reimbursements.service';
+import reimbursementService from './reimburstments.service';
 import moment from 'moment';
-import { Reimburstment } from './reimbursements';
+import { Reimburstment } from './reimburstments';
 
 const router = express.Router();
 

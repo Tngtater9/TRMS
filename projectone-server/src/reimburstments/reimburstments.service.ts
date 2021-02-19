@@ -1,7 +1,7 @@
 import { DocumentClient } from 'aws-sdk/clients/dynamodb';
 import dynamo from '../dynamo/dynamo';
 import logger from '../log';
-import { Reimburstment } from './reimbursements';
+import { Reimburstment } from './reimburstments';
 
 class ReimburstmentService {
 	private doc: DocumentClient;

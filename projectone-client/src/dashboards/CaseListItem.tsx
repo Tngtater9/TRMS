@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Reimburstment } from '../types/reimbursements';
+import { Reimburstment } from '../types/reimburstments';
 import * as Actions from '../redux/actions';
 import './Case.css';
 import moment from 'moment';

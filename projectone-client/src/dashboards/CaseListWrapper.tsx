@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { CaseState } from '../redux/reducer';
-import { Reimburstment } from '../types/reimbursements';
+import { Reimburstment } from '../types/reimburstments';
 import CaseListItem from './CaseListItem';
 import './Case.css';
 

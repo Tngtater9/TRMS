@@ -1,4 +1,4 @@
-import { Reimburstment } from '../types/reimbursements';
+import { Reimburstment } from '../types/reimburstments';
 import { User, LoginCreds } from '../types/user';
 
 export enum CaseActions {

@@ -8,7 +8,7 @@ import userService from '../services/user.service';
 import DashNav from './DashNav';
 import CaseDetailNav from './CaseDetailNav';
 import './Header.css';
-import { Grade_format, Reimburstment } from '../types/reimbursements';
+import { Grade_format, Reimburstment } from '../types/reimburstments';
 
 function Header() {
 	const history = useHistory();

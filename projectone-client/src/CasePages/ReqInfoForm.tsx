@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import Header from '../Header/Header';
 import { CaseState, UserState } from '../redux/reducer';
 import * as Actions from '../redux/actions';
-import { Info_req } from '../types/reimbursements';
+import { Info_req } from '../types/reimburstments';
 import caseService from '../services/case.service';
 
 function ReqInfoForm(props: any) {

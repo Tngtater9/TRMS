@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Reimburstment } from '../types/reimbursements';
+import { Reimburstment } from '../types/reimburstments';
 
 class CaseService {
 	private URI: string;

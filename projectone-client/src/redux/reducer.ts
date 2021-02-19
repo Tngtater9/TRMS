@@ -1,5 +1,5 @@
 import * as Actions from './actions';
-import { Reimburstment, Grade_format } from '../types/reimbursements';
+import { Reimburstment, Grade_format } from '../types/reimburstments';
 import { User, LoginCreds } from '../types/user';
 
 export interface UserState {

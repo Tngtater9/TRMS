@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { CaseState, UserState } from '../redux/reducer';
 import * as Actions from '../redux/actions';
-import { Grade_format, Reimburstment } from '../types/reimbursements';
+import { Grade_format, Reimburstment } from '../types/reimburstments';
 import caseService from '../services/case.service';
 import Header from '../Header/Header';
 import moment from 'moment';

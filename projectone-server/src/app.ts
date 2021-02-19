@@ -7,7 +7,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import usersRouter from './users/users.router';
 import publicDir from './constant';
-import casesRouter from './reimbursements/reimbursements.router';
+import casesRouter from './reimburstments/reimburstments.router';
 
 dotenv.config();
 
