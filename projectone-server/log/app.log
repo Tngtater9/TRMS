@@ -14969,3 +14969,1352 @@
 [2021-02-19T09:12:16.742] [DEBUG] default - { username: 'jtater', password: 'pass' }
 [2021-02-19T09:12:16.750] [DEBUG] default - jtater pass
 [2021-02-19T09:12:17.070] [DEBUG] default - undefined
+[2021-02-19T09:40:16.579] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.591] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.593] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.594] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.596] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.597] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.598] [INFO] default - Successfully created item
+[2021-02-19T09:40:16.600] [INFO] default - Successfully created item
+[2021-02-19T09:43:32.024] [DEBUG] default - { username: 'jtater', password: 'pass' }
+[2021-02-19T09:43:32.032] [DEBUG] default - jtater pass
+[2021-02-19T09:43:54.449] [DEBUG] default - { username: 'rtaylor', password: 'pass' }
+[2021-02-19T09:43:54.450] [DEBUG] default - rtaylor pass
+[2021-02-19T09:45:40.515] [DEBUG] default - { username: 'jtater', password: 'pass' }
+[2021-02-19T09:45:40.516] [DEBUG] default - jtater pass
+[2021-02-19T09:46:10.423] [DEBUG] default - { username: 'jtater', password: 'pass' }
+[2021-02-19T09:46:10.424] [DEBUG] default - jtater pass
+[2021-02-19T09:47:36.227] [DEBUG] default - { username: 'enghead', password: 'pass' }
+[2021-02-19T09:47:36.228] [DEBUG] default - enghead pass
+[2021-02-19T09:47:36.464] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":1000,"pending_funds":0,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","title":"Engineering Head","awarded_funds":0}
+[2021-02-19T09:47:36.955] [DEBUG] default - data.Items []
+[2021-02-19T09:47:36.956] [DEBUG] default - To Update []
+[2021-02-19T09:47:37.175] [DEBUG] default - data.Items []
+[2021-02-19T09:49:48.239] [DEBUG] default - {
+  username: 'enghead',
+  fname: 'Jamie',
+  lname: 'Tater',
+  title: 'Engineering Head',
+  dept: 'Engineering',
+  created: '2021-02-19T14:49:48.214Z',
+  status: 'In Supervisor Review',
+  event_date: '2021-03-12',
+  event_time: '12:00',
+  event_location: 'USF',
+  event_description: 'React Summit',
+  event_cost: 160,
+  event_type: 'Seminar',
+  projected_amount: 96,
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  isUrgent: false,
+  isExceeding: false,
+  approved_amount: 0,
+  super_approval: '',
+  head_approval: '',
+  benco_approval: '',
+  additional_info: [],
+  reasonToExceed: '',
+  reasonToDeny: '',
+  info_request: []
+}
+[2021-02-19T09:49:48.494] [INFO] default - Successfully created item
+[2021-02-19T09:49:48.495] [DEBUG] default - result true
+[2021-02-19T09:49:48.815] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:49:48.817] [DEBUG] default - To Update []
+[2021-02-19T09:49:49.032] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:50:04.499] [ERROR] default - null
+[2021-02-19T09:50:13.000] [DEBUG] default - { username: 'benco', password: 'pass' }
+[2021-02-19T09:50:13.000] [DEBUG] default - benco pass
+[2021-02-19T09:50:58.066] [DEBUG] default - { username: 'bencohead', password: 'pass' }
+[2021-02-19T09:50:58.067] [DEBUG] default - bencohead pass
+[2021-02-19T09:50:58.296] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":1000,"pending_funds":0,"fname":"Jacques","dept_head":"Regional Manager","username":"bencohead","dept":"BenCo","lname":"Maurice","title":"BenCo Head","awarded_funds":0}
+[2021-02-19T09:50:58.592] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","event_description":"React Summit","status":"In Supervisor Review","projected_amount":96,"lname":"Tater","info_request":[],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:50:58.594] [DEBUG] default - To Update []
+[2021-02-19T09:50:58.818] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","event_description":"React Summit","status":"In Supervisor Review","projected_amount":96,"lname":"Tater","info_request":[],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:52:13.238] [DEBUG] default - {
+  reasonToDeny: '',
+  isUrgent: false,
+  event_time: '12:00',
+  event_description: 'React Summit',
+  status: 'In Supervisor Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      created: '2021-02-19T14:52:13.215Z',
+      requested_by: 'Jacques Maurice',
+      requested_from: 'enghead',
+      description: 'Please elaborate on your justification'
+    }
+  ],
+  benco_approval: '',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: '',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: '',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:52:13.488] [DEBUG] default - {
+  Attributes: {
+    additional_info: [],
+    approved_amount: 0,
+    benco_approval: '',
+    head_approval: '',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In Supervisor Review',
+    super_approval: '',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:52:13.776] [DEBUG] default - data.Items [{"reasonToDeny":"","event_time":"12:00","isUrgent":false,"event_description":"React Summit","status":"In Supervisor Review","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:52:13.778] [DEBUG] default - To Update []
+[2021-02-19T09:52:13.992] [DEBUG] default - data.Items [{"reasonToDeny":"","event_time":"12:00","isUrgent":false,"event_description":"React Summit","status":"In Supervisor Review","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:52:44.808] [ERROR] default - null
+[2021-02-19T09:52:55.185] [DEBUG] default - { username: 'enghead', password: 'pass' }
+[2021-02-19T09:52:55.185] [DEBUG] default - enghead pass
+[2021-02-19T09:52:55.426] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":1000,"pending_funds":0,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","title":"Engineering Head","awarded_funds":0}
+[2021-02-19T09:52:55.719] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:52:55.721] [DEBUG] default - To Update []
+[2021-02-19T09:52:55.946] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:53:32.013] [DEBUG] default - {
+  reasonToDeny: '',
+  isUrgent: false,
+  event_time: '12:00',
+  status: 'In Supervisor Review',
+  event_description: 'React Summit',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: '',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: '',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      created: '2021-02-19T14:53:31.997Z',
+      from: 'Jamie Tater',
+      type: 'Other',
+      description: 'more justification here'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: '',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:53:32.249] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object] ],
+    approved_amount: 0,
+    benco_approval: '',
+    head_approval: '',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In Supervisor Review',
+    super_approval: '',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:53:32.553] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:53:32.554] [DEBUG] default - To Update []
+[2021-02-19T09:53:32.768] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Supervisor Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:53:49.755] [DEBUG] default - {
+  reasonToDeny: '',
+  isUrgent: false,
+  event_time: '12:00',
+  status: 'In Dept Head Review',
+  event_description: 'React Summit',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: '',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:53:49.740Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      created: '2021-02-19T14:53:49.740Z',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      description: '.msg'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: '',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:53:49.990] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: '',
+    head_approval: '',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In Dept Head Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:53:49.740Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:53:50.243] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Dept Head Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:53:49.740Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:53:50.244] [DEBUG] default - To Update []
+[2021-02-19T09:53:50.456] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In Dept Head Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:53:49.740Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:54:44.560] [DEBUG] default - {
+  reasonToDeny: '',
+  isUrgent: false,
+  event_time: '12:00',
+  status: 'In BenCo Review',
+  event_description: 'React Summit',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: '',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      created: '2021-02-19T14:54:44.535Z',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      description: '.msg'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: '',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:54:44.806] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: '',
+    head_approval: '',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:54:45.125] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In BenCo Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:54:44.535Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"},{"description":".msg","from":"Jamie Tater","type":"Department Head Approval Email","created":"2021-02-19T14:54:44.535Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:54:45.128] [DEBUG] default - To Update []
+[2021-02-19T09:54:45.355] [DEBUG] default - data.Items [{"reasonToDeny":"","isUrgent":false,"event_time":"12:00","status":"In BenCo Review","event_description":"React Summit","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:54:44.535Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"},{"description":".msg","from":"Jamie Tater","type":"Department Head Approval Email","created":"2021-02-19T14:54:44.535Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:54:56.888] [ERROR] default - null
+[2021-02-19T09:55:08.838] [DEBUG] default - { username: 'bencohead', password: 'pass' }
+[2021-02-19T09:55:08.839] [DEBUG] default - bencohead pass
+[2021-02-19T09:55:09.063] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":1000,"pending_funds":0,"fname":"Jacques","dept_head":"Regional Manager","username":"bencohead","dept":"BenCo","lname":"Maurice","title":"BenCo Head","awarded_funds":0}
+[2021-02-19T09:55:09.361] [DEBUG] default - data.Items [{"reasonToDeny":"","event_time":"12:00","isUrgent":false,"event_description":"React Summit","status":"In BenCo Review","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:54:44.535Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"},{"description":".msg","from":"Jamie Tater","type":"Department Head Approval Email","created":"2021-02-19T14:54:44.535Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:55:09.362] [DEBUG] default - To Update []
+[2021-02-19T09:55:09.576] [DEBUG] default - data.Items [{"reasonToDeny":"","event_time":"12:00","isUrgent":false,"event_description":"React Summit","status":"In BenCo Review","projected_amount":96,"lname":"Tater","info_request":[{"description":"Please elaborate on your justification","requested_from":"enghead","requested_by":"Jacques Maurice","created":"2021-02-19T14:52:13.215Z"}],"benco_approval":"","event_type":"Seminar","fname":"Jamie","justification":"To learn more about React","missed_work":"1 day","super_approval":"AUTO APPROVED 2021-02-19T14:54:44.535Z","event_cost":160,"isExceeding":false,"additional_info":[{"description":"more justification here","from":"Jamie Tater","type":"Other","created":"2021-02-19T14:53:31.997Z"},{"description":".msg","from":"Jamie Tater","type":"Supervisor Approval Email","created":"2021-02-19T14:53:49.740Z"},{"description":".msg","from":"Jamie Tater","type":"Department Head Approval Email","created":"2021-02-19T14:54:44.535Z"}],"event_location":"USF","created":"2021-02-19T14:49:48.214Z","grade_format":{"type":"Presentation","grade_cutoff":"70%"},"reasonToExceed":"","approved_amount":0,"head_approval":"","username":"enghead","dept":"Engineering","event_date":"2021-03-12","title":"Engineering Head"}]
+[2021-02-19T09:55:30.891] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: '',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:30.879Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:31.125] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: '',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:30.879Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:31.391] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":1000,"pending_funds":0,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","title":"Engineering Head","awarded_funds":0}
+[2021-02-19T09:55:31.406] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 904,
+  pending_funds: 96,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  title: 'Engineering Head',
+  awarded_funds: 0
+}
+[2021-02-19T09:55:31.635] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 904,
+    pending_funds: 96,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:31.645] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:30.879Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:31.872] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:30.879Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:36.734] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:36.722Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:36.919] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:36.912Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:36.977] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:36.722Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.135] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:31.144Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:36.912Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.215] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":904,"pending_funds":96,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","awarded_funds":0,"title":"Engineering Head"}
+[2021-02-19T09:55:37.231] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 712,
+  pending_funds: 192,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  awarded_funds: 0,
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.367] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":904,"pending_funds":96,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","awarded_funds":0,"title":"Engineering Head"}
+[2021-02-19T09:55:37.377] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 712,
+  pending_funds: 192,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  awarded_funds: 0,
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.433] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:37.425Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.443] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 712,
+    pending_funds: 192,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:37.456] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:36.995Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:36.722Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.591] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 712,
+    pending_funds: 192,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:37.604] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:36.912Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.625] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:37.616Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:37.664] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:37.425Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.683] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:36.995Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:36.722Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.855] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:36.912Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.860] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.152Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:37.616Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:37.909] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":712,"pending_funds":192,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","awarded_funds":0,"title":"Engineering Head"}
+[2021-02-19T09:55:37.929] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 424,
+  pending_funds: 288,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  awarded_funds: 0,
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.108] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":712,"pending_funds":192,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","awarded_funds":0,"title":"Engineering Head"}
+[2021-02-19T09:55:38.118] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 424,
+  pending_funds: 288,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  awarded_funds: 0,
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.145] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 424,
+    pending_funds: 288,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:38.156] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.689Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:37.425Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.226] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'In BenCo Review',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.892Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:38.219Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.354] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 424,
+    pending_funds: 288,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:38.363] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.892Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:37.616Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.387] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.689Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:37.425Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:38.445] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.892Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:38.219Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'In BenCo Review',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:38.584] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:37.892Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:37.616Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:38.687] [DEBUG] default - data.Item {"password":"pass","supervisor":"Regional Manager","avail_funds":424,"pending_funds":288,"fname":"Jamie","dept_head":"Regional Manager","username":"enghead","dept":"Engineering","lname":"Tater","awarded_funds":0,"title":"Engineering Head"}
+[2021-02-19T09:55:38.698] [DEBUG] default - {
+  password: 'pass',
+  supervisor: 'Regional Manager',
+  avail_funds: 40,
+  pending_funds: 384,
+  fname: 'Jamie',
+  dept_head: 'Regional Manager',
+  username: 'enghead',
+  dept: 'Engineering',
+  lname: 'Tater',
+  awarded_funds: 0,
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:38.902] [DEBUG] default - {
+  Attributes: {
+    password: 'pass',
+    supervisor: 'Regional Manager',
+    avail_funds: 40,
+    pending_funds: 384,
+    dept_head: 'Regional Manager',
+    dept: 'Engineering',
+    awarded_funds: 0,
+    title: 'Engineering Head'
+  }
+}
+[2021-02-19T09:55:38.914] [DEBUG] default - {
+  reasonToDeny: '',
+  event_time: '12:00',
+  isUrgent: false,
+  event_description: 'React Summit',
+  status: 'Pending',
+  projected_amount: 96,
+  lname: 'Tater',
+  info_request: [
+    {
+      description: 'Please elaborate on your justification',
+      requested_from: 'enghead',
+      requested_by: 'Jacques Maurice',
+      created: '2021-02-19T14:52:13.215Z'
+    }
+  ],
+  benco_approval: 'Jacques Maurice 2021-02-19T14:55:38.469Z',
+  event_type: 'Seminar',
+  fname: 'Jamie',
+  justification: 'To learn more about React',
+  missed_work: '1 day',
+  super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+  event_cost: 160,
+  isExceeding: false,
+  additional_info: [
+    {
+      description: 'more justification here',
+      from: 'Jamie Tater',
+      type: 'Other',
+      created: '2021-02-19T14:53:31.997Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Supervisor Approval Email',
+      created: '2021-02-19T14:53:49.740Z'
+    },
+    {
+      description: '.msg',
+      from: 'Jamie Tater',
+      type: 'Department Head Approval Email',
+      created: '2021-02-19T14:54:44.535Z'
+    }
+  ],
+  event_location: 'USF',
+  created: '2021-02-19T14:49:48.214Z',
+  grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+  reasonToExceed: '',
+  approved_amount: 0,
+  head_approval: 'Jacques Maurice 2021-02-19T14:55:38.219Z',
+  username: 'enghead',
+  dept: 'Engineering',
+  event_date: '2021-03-12',
+  title: 'Engineering Head'
+}
+[2021-02-19T09:55:39.151] [DEBUG] default - {
+  Attributes: {
+    additional_info: [ [Object], [Object], [Object] ],
+    approved_amount: 0,
+    benco_approval: 'Jacques Maurice 2021-02-19T14:55:38.469Z',
+    head_approval: 'Jacques Maurice 2021-02-19T14:55:38.219Z',
+    reasonToDeny: '',
+    isUrgent: false,
+    status: 'Pending',
+    super_approval: 'AUTO APPROVED 2021-02-19T14:54:44.535Z',
+    grade_format: { type: 'Presentation', grade_cutoff: '70%' },
+    info_request: [ [Object] ],
+    reasonToExceed: '',
+    isExceeding: false
+  }
+}
+[2021-02-19T09:55:57.977] [ERROR] default - null
+[2021-02-19T09:56:00.962] [DEBUG] default - { username: 'jtater1', password: 'RW2gvTkPghbCbAk' }
+[2021-02-19T09:56:00.963] [DEBUG] default - jtater1 RW2gvTkPghbCbAk
