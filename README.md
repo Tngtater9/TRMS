@@ -36,6 +36,7 @@ To-do list:
 4. Configure AWS with access key and secret key
 5. While in server folder `npm run setup`
   - If not in region `us-west-2` change region in `createTable.ts`
+  - If you want to use the employees I created as a starting point `npm run seed`
 6. While in server folder `npm start`
 7. While in client folder `npm start`
 8. Enjoy
