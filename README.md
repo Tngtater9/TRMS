@@ -29,9 +29,9 @@ To-do list:
    
 1. `git clone`
 2. Add environment variables. 
-  - For client: REACT_APP_SERVER_URI = <URI server is running on>
-  - For server: CLIENT = <URI client is running on>
-                PORT = <Port you want the server to run on>
+  - For client: REACT_APP_SERVER_URI = *URI server is running on*
+  - For server: CLIENT = *URI client is running on*
+                PORT = *Port you want the server to run on*
 3. `npm install --save`
 4. Configure AWS with access key and secret key
 5. While in server folder `npm run setup`
